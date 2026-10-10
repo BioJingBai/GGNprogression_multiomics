@@ -1,0 +1,8 @@
+# Normalize line endings for cross-platform reproducibility
+* text=auto
+
+*.py   text eol=lf
+*.R    text eol=lf
+*.md   text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf

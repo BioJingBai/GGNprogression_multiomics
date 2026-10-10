@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+.renv/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Safety net: patient-derived / controlled-access data must NOT be committed ---
+# This repository contains analysis code only. All raw and derived data files
+# (CT, sequencing, spatial, imaging, and intermediate outputs) are excluded.
+data/
+raw_data/
+output/
+results/
+*.csv
+*.tsv
+*.txt
+*.rds
+*.RDS
+*.RData
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.tif
+*.tiff
+*.czi
+*.qptiff
+*.ome.tiff
+*.png
+*.pdf
+*.jpg
+*.jpeg
+*.svg
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq.gz
